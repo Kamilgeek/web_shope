@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from bucket.views import index, contact_us, products, product_deals
 
 urlpatterns = [
     path('admin/', admin.site.urls),
